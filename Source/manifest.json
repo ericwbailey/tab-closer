@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tab closer",
+  "short_name": "Tab closer",
+  "description": "Closes browser tabs that automatically open after launching a service.",
+  "author": "Eric Bailey",
+  "version": "1.0.0",
+  "permissions": [ "tabs" ],
+  "host_permissions": [
+    "https://github.zoom.us/j/*",
+    "https://www.figma.com/design/*",
+    "https://www.figma.com/board/*"
+  ],
+  "icons": {
+    "16":  "icon16.png",
+    "32":  "icon32.png",
+    "48":  "icon48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
