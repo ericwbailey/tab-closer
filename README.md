@@ -6,4 +6,4 @@ This extension automatically closes specified browser tabs after a 2.5 second de
 
 Load this as an unpacked extension in a Chromium browser.
 
-Edit `host_permissions` in `manifest.json` and the `targets` array in `background.js` to change the sites that get closed.
+Edit [`host_permissions` in `manifest.json`](https://github.com/ericwbailey/tab-closer/blob/main/Source/manifest.json#L10-L12) and [the `targets` array in `background.js`](https://github.com/ericwbailey/tab-closer/blob/main/Source/background.js#L3-L5) to change the sites that get closed.
